@@ -1,0 +1,19 @@
+baseURL: "https://niklaslollo.github.io/"
+title: "My Blog"
+footnoteReturnLinkContents: "↩"
+permalinks:
+  post: /:year/:month/:slug/
+  params:
+  Subtitle: "Where I write and publish quickly"
+AuthorName: "Niklas Lollo"
+GitHubUser: "niklaslollo"
+ListOfFoo:
+  - "foo1"
+  - "foo2"
+SidebarRecentLimit: 5
+enableEmoji: true
+publishDir: /public
+ignoreFiles: ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+
+
+# https://gohugo.io/getting-started/configuration/
