@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>R on Economics, Politics, and Resources</title>
+    <link>/categories/r/</link>
+    <description>Recent content in R on Economics, Politics, and Resources</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 23 Jul 2015 21:13:14 -0500</lastBuildDate>
+    
+	<atom:link href="/categories/r/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Welcome, Reader</title>
+      <link>/2015/07/23/welcome-reader/</link>
+      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
+      
+      <guid>/2015/07/23/welcome-reader/</guid>
+      <description>Thanks for visiting my blog.</description>
+    </item>
+    
+  </channel>
+</rss>
