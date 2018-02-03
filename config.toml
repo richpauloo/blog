@@ -45,7 +45,19 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     thumbnailImage = true
     thumbnailImagePosition = "bottom"
     autoThumbnailImage = true
-    
+    [params.intro]
+    header    = "Niklas Lollo's Blog"
+    paragraph = "Where I write and publish quickly"
+    about = "Where I write and publish quickly"
+  
+    [params.intro.pic]
+        src       = "/data/photos/CSP_3556.jpg"
+        # Sets Image to be a cirlce
+        circle    = false
+        # Sets Image to be Future Imperfect's hexagon
+        imperfect = true
+        width     = ""
+
     [[params.sharingOptions]]
       name = "Twitter"
       icon = "fa-twitter"
