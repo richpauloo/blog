@@ -37,6 +37,9 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     name = "Twitter"
     url = "https://twitter.com/niklaslollo"
 
+[context.production.environment]
+  HUGO_VERSION = "0.35"
+  
 [params]
     description = "Where I write and publish quickly"
     thumbnailImage = true
