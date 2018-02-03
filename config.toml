@@ -1,13 +1,28 @@
-baseurl = "/"
+baseurl = "https://niklasblog.netlify.com"
 languageCode = "en-us"
 title = "Economics, Politics, and Resources"
+defaultContentLanguage = "en-us"
 theme = "hugo-future-imperfect"
 googleAnalytics = ""
 disqusShortname = ""
+paginate = 7
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 [permalinks]
     post = "/:year/:month/:day/:slug/"
+
+[author]
+  name = "Niklas Lollo"
+  bio = "Biologist turned Bioinformatician turned Data Scientist"
+  job = "PhD Student"
+  location = "Berkeley, California, USA"
+  # Your Gravatar email. Overwrite `author.picture` everywhere in the blog
+  gravatarEmail = "nicklollo2@gmail.com"
+  # Your profile picture
+  # Overwritten by your gravatar image if `author.gravatarEmail` is filled
+  picture = "data/photos/CSP_3556.jpg"
+  twitter = "niklaslollo"
+
 
 [[menu.main]]
     name = "About"
@@ -24,6 +39,14 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 [params]
     description = "Where I write and publish quickly"
+    thumbnailImage = true
+    thumbnailImagePosition = "bottom"
+    autoThumbnailImage = true
+    
+    [[params.sharingOptions]]
+      name = "Twitter"
+      icon = "fa-twitter"
+      url = "https://twitter.com/intent/tweet?text=%s"
 
     # options for highlight.js (version, additional languages, and theme)
     highlightjsVersion = "9.11.0"
