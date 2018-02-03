@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>R on Economics, Politics, and Resources</title>
-    <link>/categories/r/</link>
-    <description>Recent content in R on Economics, Politics, and Resources</description>
+    <title>Tidyverse on Economics, Politics, and Resources</title>
+    <link>/tags/tidyverse/</link>
+    <description>Recent content in Tidyverse on Economics, Politics, and Resources</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 03 Feb 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/categories/r/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/tidyverse/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -18,15 +18,6 @@
       
       <guid>/2018/02/03/what-i-learned-at-rstudioconf/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>Welcome, Reader</title>
-      <link>/2015/07/23/welcome-reader/</link>
-      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
-      
-      <guid>/2015/07/23/welcome-reader/</guid>
-      <description>Thanks for visiting my blog.</description>
     </item>
     
   </channel>
