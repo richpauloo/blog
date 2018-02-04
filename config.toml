@@ -4,7 +4,7 @@ title = "Economics, Politics, and Resources"
 defaultContentLanguage = "en-us"
 theme = "hugo-future-imperfect"
 googleAnalytics = ""
-disqusShortname = "shortname"
+disqusShortname = "https-niklaslollo-netlify-com"
 paginate = 7
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
