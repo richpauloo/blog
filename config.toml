@@ -4,7 +4,7 @@ title = "Economics, Politics, and Resources"
 defaultContentLanguage = "en-us"
 theme = "hugo-future-imperfect"
 googleAnalytics = ""
-disqusShortname = ""
+disqusShortname = "shortname"
 paginate = 7
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
@@ -56,7 +56,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     # Sets Estimated Reading Time to appear in post headers
     includeReadingTime = true
     # Sets Social Share links to appear on posts
-    socialShare = true
+    socialShare = false
     
     [params.intro]
     header    = "Niklas Lollo's Blog"
