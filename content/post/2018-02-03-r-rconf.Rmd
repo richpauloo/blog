@@ -6,3 +6,31 @@ categories: ["R"]
 tags: ["RStudio", "coding", "tidyverse"]
 ---
 
+## Workflow
+- *tidyverse*
+- *multilingual rmd*
+- *packages*
+- *programming with dplyr*
+- **always**  *think about your user*
+
+## Packages
+- *infer*
+- *sf*
+- *tidygraph & ggraph*
+- *tibbletime*
+
+## Inspiration
+- Making a package
+- Making a blog (this blog!)
+- Quick and dirty
+
+## Provocations
+- *Visual inference*
+
+## Itches scratched
+- *tensorflow*
+
+## Food, Hexes, and Sunshine
+Such a relaxing conference. Instead of everyone challenging each other, people were so excited to discuss methods and workflows and ideas.
+
+Thanks to DS421 for funding my conference pass and Rich Pauloo for being my conference companion.

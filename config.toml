@@ -11,70 +11,85 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 [permalinks]
     post = "/:year/:month/:day/:slug/"
 
-[author]
-  name = "Niklas Lollo"
-  bio = "Biologist turned Bioinformatician turned Data Scientist"
-  job = "PhD Student"
-  location = "Berkeley, California, USA"
-  # Your Gravatar email. Overwrite `author.picture` everywhere in the blog
-  gravatarEmail = "nicklollo2@gmail.com"
-  # Your profile picture
-  # Overwritten by your gravatar image if `author.gravatarEmail` is filled
-  picture = "data/photos/CSP_3556.jpg"
-  twitter = "niklaslollo"
-
-
 [[menu.main]]
-    name = "About"
-    url = "/about/"
+    name = "Home"
+    url = "/"
+    identifier = "fa fa-home"
+    weight = 1
+[[menu.main]]
+    name = "Blog"
+    url = "/post/"
+    identifier = "fa fa-newspaper-o"
+    weight = 2
+[[menu.main]]
+    name = "Categories"
+    url = "/categories/"
+    identifier = "fa fa-sitemap"
+    weight = 3
 [[menu.main]]
     name = "Website"
     url = "https://niklaslollo.github.io"
-[[menu.main]]
-    name = "GitHub"
-    url = "https://github.com/niklaslollo/blog"
-[[menu.main]]
-    name = "Twitter"
-    url = "https://twitter.com/niklaslollo"
+    identifier = "fa fa-id-card-o"
+    weight = 4
 
-[context.production.environment]
-  HUGO_VERSION = "0.35"
-  
 [params]
-    description = "Where I write and publish quickly"
-    thumbnailImage = true
-    thumbnailImagePosition = "bottom"
-    autoThumbnailImage = true
+    # Sets the meta tag description
+    description          = "Niklas Lollo's blog"
+    # Sets the navbarTitle that appears in the top left of the navigation bar
+    navbarTitle          = "Niklas Lollo"
+    # Sets where "View More Posts" links
+    viewMorePostLink = "/blog/"
+    
+    # Optional Params
+    # Sets navbarTitle to match the section of the website
+    dynamicTitles        = true
+    # Sets RSS icons to appear on the sidebar with the social media buttons
+    rssAppearAtTop       = true
+    rssAppearAtBottom    = true
+    # Sets Social Media icons to appear on the sidebar
+    socialAppearAtTop    = true
+    socialAppearAtBottom = true
+    # Sets Categories to sort by number of posts instead of alphabetical
+    categoriesByCount    = true
+    # set to show or to hide categories in the sidebar
+    showSidebarCategories = true
+    # Sets Estimated Reading Time to appear in post headers
+    includeReadingTime = true
+    # Sets Social Share links to appear on posts
+    socialShare = true
+    
     [params.intro]
     header    = "Niklas Lollo's Blog"
     paragraph = "Where I write and publish quickly"
-    about = "Where I write and publish quickly"
+    about = "PhD student in the Energy and Resources Group at UC Berkeley. I do applied research in clothing factories on human rights and environmental impacts."
   
-    [params.intro.pic]
-        src       = "/data/photos/CSP_3556.jpg"
-        # Sets Image to be a cirlce
-        circle    = false
-        # Sets Image to be Future Imperfect's hexagon
-        imperfect = true
-        width     = ""
-
-    [[params.sharingOptions]]
-      name = "Twitter"
-      icon = "fa-twitter"
-      url = "https://twitter.com/intent/tweet?text=%s"
-
+      [params.intro.pic]
+      src       = "img/normal_header.jpg"
+      circle    = false
+      imperfect = true
+      width     = ""
+      alt = "Hugo Future Imperfect"
+    
+    [params.postAmount]
+    # Sets the number of recent posts to show in the sidebar. The default value is 5.
+    sidebar = 5
+    
     # options for highlight.js (version, additional languages, and theme)
+    disable_highlight = false # set to true to disable Highlight
     highlightjsVersion = "9.11.0"
     highlightjsCDN = "//cdn.bootcss.com"
-    highlightjsLang = ["r", "yaml"]
+    highlightjsLang = ["r", "yaml", "css"]
     highlightjsTheme = "github"
 
-    MathJaxCDN = "//cdn.bootcss.com"
-    MathJaxVersion = "2.7.1"
-
-    [params.logo]
-    url = "logo.png"
-    width = 50
-    height = 50
-    alt = "Logo"
+[social]
+  # Coding Communities
+  github           = "niklaslollo"
+  stackoverflow    = "6238025" # User Number
+  # Professional/Business Oriented Communities
+  linkedin         = "lollon"
+  twitter          = "NiklasLollo"
+  googlescholar    = "B3P77eAAAAAJ"
+  researchgate     = "Niklas_Lollo"    
+  # Email
+  email = "nicklollo2@gmail.com"
 
