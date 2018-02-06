@@ -6,31 +6,33 @@ categories: ["data science"]
 tags: ["RStudio","R", "conference","data science"]
 ---
 
-[photo up top]()
+![](blog_img/r_conf.png)  
 
 We're driving north on I-5, passing brown hills and palm trees, San Deigo in the rear view. The smell of last night's beach bonfire on our jackets in the back seat wafts up front, and Google Maps tells us we're 7 hours from our destination: Berkeley and Davis, CA.  
 
 For the past two days, we attended RStudio::conf2018, a gathering of about 1,500 R users, programmers, data scientics, academics, and tidyverse hex sticker afficionados. Though it all, we saw presentations on new packages, novel ways to approach workflows, and cool new ways to think about the role of data science in society.  
 
-On this holiest of days, Superbowl Sunday, while hurtling 80 mph down the highway, we thought it an appropriate time to slow down and reflect on our experience at RStudio::conf2018, both for ourselves, and for our peers and colleagues in our respective data science programs at UC Berkeley and Davis.  
+It is a most holy of days, Superbowl Sunday.    
+![](blog_img/kobe.gif)  
+The gods of ball sport are throwing down slam dunk home runs as we write, leaving the interstates wide open and free of traffic. Hurtling at 80 mph down the highway, we thought it an appropriate time to slow down and reflect on our experience at RStudio::conf2018, both for ourselves, and for our peers and colleagues in our respective data science programs at UC Berkeley and Davis.  
 
-[Footbal/KobeBryant gif]()  
+We came up with 5 questions, and imagined that [Krista Tippett, NPR host of *On Being*](https://onbeing.org/) ran the interview.  
 
-We came up with 5 questions, and imagined Krista Tippett ran the interview.   
+![](blog_img/krista_rich.jpg)
 
 ***
 
-*I always start my shows by asking... Why did you go?*  
+### *I always start my shows by asking... Why did you go?*  
 
 **Niklas Lollo:**  
 
-> That's a really great question, Krista. I'm glad you asked. I went to this conference because Rich Pauloo asked me to go with him. I didn't really know what I was getting myself into, but after doing some ex-post rationalization after buying he conference ticket, I realized that I saw it primarly as means to  .... I've been thinking about my life after grad school, and this conference would allow me to 1), develop my skills in programming, and 2) see how people in industry are using these skills I'm developing, and if that's something I'm interested in. It was also convenient that it was in my home town of San Diego which is very sunny and has burritos. 
+> That's a really great question, Krista. I'm glad you asked. I went to this conference because Rich Pauloo asked me to go with him. I didn't really know what I was getting myself into, but after doing some ex-post rationalization after buying the conference ticket, I realized that I saw it primarly as means to .... I've been thinking about my life after grad school, and this conference would allow me to 1), develop my skills in programming, and 2) see how people in industry are using these skills I'm developing, and if that's something I'm interested in. It was also convenient that it was in my home town of San Diego which is very sunny and has burritos. 
 
 **Rich Pauloo:**  
 
-> Krista, you have such a way with questions. You know, the RStudio developers have put out an impressive arrary of packages that make data science tasks easy and intuitive, and I saw this as an opportunity to see what the future of R might look like. I didn't know exactly what to expect, and went to listen and learn from leaders in the field. I use R extensively in my research, and have started using it for data science hobby projects, so I also saw this as a way to develop my coding skillset. San Diego is famed for smoked fish tacos, which was undoubtedly a principle motivator.
+> Krista, you have such a way with questions. You know, the RStudio developers have put out an impressive arrary of packages that make data science tasks easy and intuitive, and I saw this as an opportunity to see what the future of R might look like. I didn't know exactly what to expect, and went to listen and learn from leaders in the field. I use R extensively in my research, and have started using it for data science hobby projects, so I also saw this as a way to develop my coding skillset. San Diego is famed for smoked fish tacos, which was admitedly a principal motivator.
 
-*Mmm, that's so rich. I wanna dive a little deeper into some things you said there. You both spoke about developing your skillsets, was that a main takeaway for you, and what other takeaways contributed towards your growth as an individual, a data scientist, and a student of life?* 
+### *Mmm, that's so rich. I wanna dive a little deeper into some things you said there. You both spoke about developing your skillsets. Was that a main takeaway for you, and what other takeaways contributed towards your growth as an individual, a data scientist, and a student of life?* 
 
 **NL:**  
 
@@ -38,15 +40,15 @@ We came up with 5 questions, and imagined Krista Tippett ran the interview.
 
 **RP:**  
 
-> Well, Krista, you're so punny. I certainly grew as an individual and a student of life, and I'm more confident that no one knows what a data scientist is. in no particular order, some things that come to mind when I think about takeaways are: 
+> Well, Krista, you're so punny. I certainly grew as an individual and a student of life, and I'm more confident that no one really knows what a data scientist is. In no particular order, some things that come to mind when I think about takeaways are: 
 
->  - The most [down to earth explanation about principle components analysis I've ever seen]().
-  - An insightful [high-level talk on tensorflow.]()  
+>  - The most down to earth explanation about principle components analysis I've ever seen from Julia Silge.
+  - An insightful high-level talk on tensorflow from JJ Allaire.  
   - Some great talks on spatial data analysis, time series, and statistical inference.
   
-> Beyond learning about new packages that I'm excited to work with, I was impressed by how kind, collaborative, and down to earth everybody was. I wish I could take away the desserts, and I have about 50 `dplyr` hex stickers that I clawed my way to secure for the fine denizens of the Davis R users group and data science initiative.
+> Beyond learning about new packages that I'm excited to work with, I was impressed by how kind, collaborative, and down to earth everybody was. I also have about 20 hex stickers that I clawed my way to secure for the fine denizens of the Davis R users group and Data Science Initiative.
 
-*Mmm, yes, I feel like there's so much I want to follow up on, and perhaps learn for myself! What I think we'd all really like to know is: Did anything catch you by surprise?*
+### *Mmm, yes, I feel like there's so much I want to follow up on, and perhaps learn for myself! What I think we'd all really like to know is: Did anything catch you by surprise?*
 
 **NL:**  
 
@@ -54,9 +56,9 @@ We came up with 5 questions, and imagined Krista Tippett ran the interview.
 
 **RP:**
 
-> People say that the most universal human language is empathy, but I think R might be a close second. I was surprised at the diversity of attendees. We came from all over the world and spanned age groups, backgrounds, and occupations. And also, Hadley Wickam, RStudio's Chief Scientist and patron saint of the `tidyverse`, is surprisingly chill in person. 
+> People say that the most universal human language is empathy, but I think R might be a close second. I was surprised at the diversity of attendees. We came from all over the world and spanned age groups, backgrounds, and occupations. And also, Hadley Wickam, RStudio's Chief Scientist and patron saint of the `tidyverse`, is refreshingly chill and easygoing in person. 
 
-*Mmmm, yes, so true. So Niklas and Rich, we have a lot of listeners out there, data scientists, students, and such, who might be considering attending rstudio::conf2019. Is that something you would recommend, and why?*  
+### *Mmmm, yes, so true. So Niklas and Rich, we have a lot of listeners out there, students, data scientists and such, who might be considering attending rstudio::conf2019. Is that something you would recommend, and if so why?*  
 
 **NL:**  
 
@@ -64,9 +66,9 @@ We came up with 5 questions, and imagined Krista Tippett ran the interview.
 
 **RP:** 
 
-> I agree with, Nick, recommendations are tough. There are personal and practical barriers to attending. However, if you use R regularly and want to be inspired to use it more and observe the cutting edge, then this conference is right for you. Practically, RStudio::conf2019 will be held in Austin, TX. You have to secure funding to make it across the country. We were lucky enough to have friends and family in San Diego to stay with, and a car to drive the ~8 hours to the conference. So our main cost was the price of a student admission. January 2019 is a ways away, so if you are motivated, you can start tapping your network and find funding.
+> I agree with Nik, recommendations are tough. There are personal and practical barriers to attending. However, if you use R regularly and want to be inspired to use it more, and if you want to see the cutting edge of what's being developed, then this conference is for you. I would recommend it if you have some background in R already. Practically speaking, **RStudio::conf2019** will be held in Austin, TX, so you have to secure funding to make it across the country. We were lucky enough to have friends and family in San Diego to stay with, and a car to drive the ~8 hours to the conference. So our main cost was the price of a student admission. January 2019 is a ways away, so if you're motivated, you can start tapping your network to find funding and lodging.
 
-*Mmmm, yes, so true. Alright, Niklas and Rich, this is my last question. First, I'd like to preface with a story. Last week, I had the distinct honor and privilege of speaking with the Dalai Lama, and we talked about this idea of getting beyond the self, to consider the community that nourishes the self, and to use the self as a vehicle for change. I'm wondering if you could say a little bit about how this experience, which has benefited you so much, will serve your community back home?*
+### *Mmmm, yes, so true. Alright, Niklas and Rich, this is my last question. First, I'd like to preface with a story. Last week, I had the distinct honor and privilege of speaking with the Dalai Lama, and we talked about this idea of getting beyond the self, to consider the community that nourishes the self, and to use the self as a vehicle for change. I'm wondering if you could say a little bit about how this experience, which has benefited you so much, will serve your community back home?*
 
 **NL:**  
 
@@ -74,11 +76,21 @@ We came up with 5 questions, and imagined Krista Tippett ran the interview.
 
 **RP:**  
 
-> Krista, I'd be hard-pressed to disagree with His-Holiness the Dalai Lama. And more so, Nick and I have been talking about what we can do to share this experience with others. There's a tremendous amount of momentum that I feel coming out of this experience. I wrote a blog on [chi-squared tests and statistical inference using a new package called Infer]() and I want to write at least two more blog posts on [working with time-series data with `tibbletime`]() and [mapping with `sf`](). I also want to give a presentation to the Davis R Users group on `tibbletime` since I think it has a lot of immediate value to many people's work. In the long-term, an idea of mine that's been brewing, is to put together a *R for Hydrologic Science* aimed at first and second year masters and PhD students in Hydrology. So I hope to wrap some example datasets and basic functions into an R package for this purpose. Beyond that, maybe I'll go to RStudio::conf2019, if you have any good floors in Austin I can sleep on, let me know.
+> Krista, I'd be hard-pressed to disagree with His Holiness the Dalai Lama. And more so, Nik and I have been talking about what we can do to share this experience with others. There's a tremendous amount of momentum that I feel coming out of this experience. I wrote a blog on [chi-squared tests and statistical inference using a new package called Infer](https://richpauloo.github.io/2018-02-03-Chi-Squared-stats-in-base-R-and-infer/) and I want to write at least two more blog posts on working with time-series data with `tibbletime` and mapping with `sf`. I also want to give a presentation to the Davis R Users group on `tibbletime` since I think it has a lot of immediate value to many people's work. In the long-term, an idea of mine that's been brewing is to put together an *R for Hydrologists* course aimed at first and second year masters and PhD students in Hydrology. So I hope to wrap some example datasets and field-specific functions into an R package for this purpose. Beyond that, maybe I'll go to RStudio::conf2019. If you know of any good floors in Austin that I might sleep on, let me know.
 
 ## Photos
 
+Hadley Wickham talking about "Big Ideas"  
+![](blog_img/big_ideas.jpg)
 
+Hex sticker mania, Part I  
+![](blog_img/hex.jpg)
+
+Hex sticker mania, Part II
+![](blog_img/hex_2.jpg)
+
+[Rich Pauloo](richpauloo.github.io)
+![](blog_img/rich.jpg)
 
 
 
