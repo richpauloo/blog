@@ -2,30 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>R on Economics, Politics, and Resources</title>
-    <link>/categories/r/</link>
+    <link>https://niklaslollo.netlify.com/categories/r/</link>
     <description>Recent content in R on Economics, Politics, and Resources</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 03 Feb 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 23 Jul 2015 21:13:14 -0500</lastBuildDate>
     
-	<atom:link href="/categories/r/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://niklaslollo.netlify.com/categories/r/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>What I learned at rstudio::conf</title>
-      <link>/2018/02/03/what-i-learned-at-rstudioconf/</link>
-      <pubDate>Sat, 03 Feb 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/2018/02/03/what-i-learned-at-rstudioconf/</guid>
-      <description>Workflow  tidyverse multilingual rmd packages programming with dplyr always think about your user   Packages  infer sf tidygraph &amp;amp; ggraph tibbletime   Inspiration  Making a package Making a blog (this blog!) Quick and dirty   Provocations  Visual inference   Itches scratched  tensorflow   Food, Hexes, and Sunshine Such a relaxing conference. Instead of everyone challenging each other, people were so excited to discuss methods and workflows and ideas.</description>
-    </item>
     
     <item>
       <title>Welcome, Reader</title>
-      <link>/2015/07/23/welcome-reader/</link>
+      <link>https://niklaslollo.netlify.com/2015/07/23/welcome-reader/</link>
       <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
       
-      <guid>/2015/07/23/welcome-reader/</guid>
+      <guid>https://niklaslollo.netlify.com/2015/07/23/welcome-reader/</guid>
       <description>Thanks for visiting my blog.</description>
     </item>
     

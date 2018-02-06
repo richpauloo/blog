@@ -2,30 +2,41 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Economics, Politics, and Resources</title>
-    <link>/post/</link>
+    <link>https://niklaslollo.netlify.com/post/</link>
     <description>Recent content in Posts on Economics, Politics, and Resources</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 03 Feb 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 05 Feb 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://niklaslollo.netlify.com/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Reflections on RStudio::conf2018</title>
+      <link>https://niklaslollo.netlify.com/2018/02/05/reflections-on-rstudioconf2018/</link>
+      <pubDate>Mon, 05 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://niklaslollo.netlify.com/2018/02/05/reflections-on-rstudioconf2018/</guid>
+      <description>photo up top
+We’re driving north on I-5, passing brown hills and palm trees, San Deigo in the rear view. The smell of last night’s beach bonfire on our jackets in the back seat wafts up front, and Google Maps tells us we’re 7 hours from our destination: Berkeley and Davis, CA.
+For the past two days, we attended RStudio::conf2018, a gathering of about 1,500 R users, programmers, data scientics, academics, and tidyverse hex sticker afficionados.</description>
+    </item>
+    
+    <item>
       <title>What I learned at rstudio::conf</title>
-      <link>/2018/02/03/what-i-learned-at-rstudioconf/</link>
+      <link>https://niklaslollo.netlify.com/2018/02/03/what-i-learned-at-rstudioconf/</link>
       <pubDate>Sat, 03 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>/2018/02/03/what-i-learned-at-rstudioconf/</guid>
+      <guid>https://niklaslollo.netlify.com/2018/02/03/what-i-learned-at-rstudioconf/</guid>
       <description>Workflow  tidyverse multilingual rmd packages programming with dplyr always think about your user   Packages  infer sf tidygraph &amp;amp; ggraph tibbletime   Inspiration  Making a package Making a blog (this blog!) Quick and dirty   Provocations  Visual inference   Itches scratched  tensorflow   Food, Hexes, and Sunshine Such a relaxing conference. Instead of everyone challenging each other, people were so excited to discuss methods and workflows and ideas.</description>
     </item>
     
     <item>
       <title>Welcome, Reader</title>
-      <link>/2015/07/23/welcome-reader/</link>
+      <link>https://niklaslollo.netlify.com/2015/07/23/welcome-reader/</link>
       <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
       
-      <guid>/2015/07/23/welcome-reader/</guid>
+      <guid>https://niklaslollo.netlify.com/2015/07/23/welcome-reader/</guid>
       <description>Thanks for visiting my blog.</description>
     </item>
     

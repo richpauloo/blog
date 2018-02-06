@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Conference on Economics, Politics, and Resources</title>
+    <link>https://niklaslollo.netlify.com/tags/conference/</link>
+    <description>Recent content in Conference on Economics, Politics, and Resources</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 05 Feb 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://niklaslollo.netlify.com/tags/conference/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Reflections on RStudio::conf2018</title>
+      <link>https://niklaslollo.netlify.com/2018/02/05/reflections-on-rstudioconf2018/</link>
+      <pubDate>Mon, 05 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://niklaslollo.netlify.com/2018/02/05/reflections-on-rstudioconf2018/</guid>
+      <description>photo up top
+We’re driving north on I-5, passing brown hills and palm trees, San Deigo in the rear view. The smell of last night’s beach bonfire on our jackets in the back seat wafts up front, and Google Maps tells us we’re 7 hours from our destination: Berkeley and Davis, CA.
+For the past two days, we attended RStudio::conf2018, a gathering of about 1,500 R users, programmers, data scientics, academics, and tidyverse hex sticker afficionados.</description>
+    </item>
+    
+  </channel>
+</rss>

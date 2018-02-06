@@ -29,11 +29,11 @@
         <meta property="og:title" content="Economics, Politics, and Resources" />
 <meta property="og:description" content="Niklas Lollo&#39;s blog" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="/" />
+<meta property="og:url" content="https://niklaslollo.netlify.com/" />
 
 
 
-<meta property="og:updated_time" content="2018-02-03T00:00:00&#43;00:00"/>
+<meta property="og:updated_time" content="2018-02-05T00:00:00&#43;00:00"/>
 
 
 
@@ -127,7 +127,7 @@
                 <a class="fa-search" href="#search">Search</a>
                 <form id="search" method="get" action="//google.com/search">
                     <input type="text" name="q" placeholder="Search" />
-                    <input type="hidden" name="as_sitesearch" value="/">
+                    <input type="hidden" name="as_sitesearch" value="https://niklaslollo.netlify.com/">
                 </form>
             </li>
             <li class="menu">
@@ -144,7 +144,7 @@
         <section>
             <form class="search" method="get" action="//google.com/search">
                 <input type="text" name="q" placeholder="Search" />
-                <input type="hidden" name="as_sitesearch" value="/">
+                <input type="hidden" name="as_sitesearch" value="https://niklaslollo.netlify.com/">
             </form>
         </section>
 
@@ -202,6 +202,18 @@
                 
                         <article class="mini-post">
                             <header>
+                                <h3><a href="/2018/02/05/reflections-on-rstudioconf2018/">Reflections on RStudio::conf2018</a></h3>
+                                
+                                <time class="published" datetime=
+                                    '2018-02-05'>
+                                    February 5, 2018</time>
+                            </header>
+                            
+
+                        </article>
+                
+                        <article class="mini-post">
+                            <header>
                                 <h3><a href="/2018/02/03/what-i-learned-at-rstudioconf/">What I learned at rstudio::conf</a></h3>
                                 
                                 <time class="published" datetime=
@@ -229,8 +241,8 @@
                                 <h3><a href="/post/">Posts</a></h3>
                                 
                                 <time class="published" datetime=
-                                    '2018-02-03'>
-                                    February 3, 2018</time>
+                                    '2018-02-05'>
+                                    February 5, 2018</time>
                             </header>
                             
 
@@ -252,7 +264,7 @@
   <header>
     <div class="title">
         
-            <h2><a href="/2018/02/03/what-i-learned-at-rstudioconf/">What I learned at rstudio::conf</a></h2>
+            <h2><a href="/2018/02/05/reflections-on-rstudioconf2018/">Reflections on RStudio::conf2018</a></h2>
         
         
     </div>
@@ -260,11 +272,11 @@
         
 
         <time class="published"
-            datetime='2018-02-03'>
-            February 3, 2018</time>
-        <span class="author">Niklas Lollo</span>
+            datetime='2018-02-05'>
+            February 5, 2018</time>
+        <span class="author">Niklas Lollo &amp; Rich Pauloo</span>
         
-            <p>1 minute read</p>
+            <p>8 minute read</p>
         
         
     </div>
@@ -276,49 +288,71 @@
   
 
   <div id="content">
-    <div id="workflow" class="section level2">
-<h2>Workflow</h2>
+    <p><a href="">photo up top</a></p>
+<p>We’re driving north on I-5, passing brown hills and palm trees, San Deigo in the rear view. The smell of last night’s beach bonfire on our jackets in the back seat wafts up front, and Google Maps tells us we’re 7 hours from our destination: Berkeley and Davis, CA.</p>
+<p>For the past two days, we attended RStudio::conf2018, a gathering of about 1,500 R users, programmers, data scientics, academics, and tidyverse hex sticker afficionados. Though it all, we saw presentations on new packages, novel ways to approach workflows, and cool new ways to think about the role of data science in society.</p>
+<p>On this holiest of days, Superbowl Sunday, while hurtling 80 mph down the highway, we thought it an appropriate time to slow down and reflect on our experience at RStudio::conf2018, both for ourselves, and for our peers and colleagues in our respective data science programs at UC Berkeley and Davis.</p>
+<p><a href="">Footbal/KobeBryant gif</a></p>
+<p>We came up with 5 questions, and imagined Krista Tippett ran the interview.</p>
+<hr />
+<p><em>I always start my shows by asking… Why did you go?</em></p>
+<p><strong>Niklas Lollo:</strong></p>
+<blockquote>
+<p>That’s a really great question, Krista. I’m glad you asked. I went to this conference because Rich Pauloo asked me to go with him. I didn’t really know what I was getting myself into, but after doing some ex-post rationalization after buying he conference ticket, I realized that I saw it primarly as means to …. I’ve been thinking about my life after grad school, and this conference would allow me to 1), develop my skills in programming, and 2) see how people in industry are using these skills I’m developing, and if that’s something I’m interested in. It was also convenient that it was in my home town of San Diego which is very sunny and has burritos.</p>
+</blockquote>
+<p><strong>Rich Pauloo:</strong></p>
+<blockquote>
+<p>Krista, you have such a way with questions. You know, the RStudio developers have put out an impressive arrary of packages that make data science tasks easy and intuitive, and I saw this as an opportunity to see what the future of R might look like. I didn’t know exactly what to expect, and went to listen and learn from leaders in the field. I use R extensively in my research, and have started using it for data science hobby projects, so I also saw this as a way to develop my coding skillset. San Diego is famed for smoked fish tacos, which was undoubtedly a principle motivator.</p>
+</blockquote>
+<p><em>Mmm, that’s so rich. I wanna dive a little deeper into some things you said there. You both spoke about developing your skillsets, was that a main takeaway for you, and what other takeaways contributed towards your growth as an individual, a data scientist, and a student of life?</em></p>
+<p><strong>NL:</strong></p>
+<blockquote>
+<p>I’m happy to field this question, Krista. As you know, I’ve been exploring the nature of being and death for some time now… but really, this conference was about suspending those abstract questions, and just living at ground level. What I took away were the four P’s: (1) packages, (2) perseverence, (3) possibility, and (4) people. Since you’re probably smelling what I’m cooking, I’ll keep this brief: the non-adversarial (4) people presented me with a panoply of (1) packages, showcasing the (3) possibility and my potential, if only I work with a modicum of diligence and (4) perserverence.</p>
+</blockquote>
+<p><strong>RP:</strong></p>
+<blockquote>
+<p>Well, Krista, you’re so punny. I certainly grew as an individual and a student of life, and I’m more confident that no one knows what a data scientist is. in no particular order, some things that come to mind when I think about takeaways are:</p>
+</blockquote>
+<blockquote>
 <ul>
-<li><em>tidyverse</em></li>
-<li><em>multilingual rmd</em></li>
-<li><em>packages</em></li>
-<li><em>programming with dplyr</em></li>
-<li><strong>always</strong> <em>think about your user</em></li>
+<li>The most <a href="">down to earth explanation about principle components analysis I’ve ever seen</a>.</li>
+<li>An insightful <a href="">high-level talk on tensorflow.</a><br />
+</li>
+<li>Some great talks on spatial data analysis, time series, and statistical inference.</li>
 </ul>
-</div>
-<div id="packages" class="section level2">
-<h2>Packages</h2>
-<ul>
-<li><em>infer</em></li>
-<li><em>sf</em></li>
-<li><em>tidygraph &amp; ggraph</em></li>
-<li><em>tibbletime</em></li>
-</ul>
-</div>
-<div id="inspiration" class="section level2">
-<h2>Inspiration</h2>
-<ul>
-<li>Making a package</li>
-<li>Making a blog (this blog!)</li>
-<li>Quick and dirty</li>
-</ul>
-</div>
-<div id="provocations" class="section level2">
-<h2>Provocations</h2>
-<ul>
-<li><em>Visual inference</em></li>
-</ul>
-</div>
-<div id="itches-scratched" class="section level2">
-<h2>Itches scratched</h2>
-<ul>
-<li><em>tensorflow</em></li>
-</ul>
-</div>
-<div id="food-hexes-and-sunshine" class="section level2">
-<h2>Food, Hexes, and Sunshine</h2>
-<p>Such a relaxing conference. Instead of everyone challenging each other, people were so excited to discuss methods and workflows and ideas.</p>
-<p>Thanks to DS421 for funding my conference pass and Rich Pauloo for being my conference companion.</p>
+</blockquote>
+<blockquote>
+<p>Beyond learning about new packages that I’m excited to work with, I was impressed by how kind, collaborative, and down to earth everybody was. I wish I could take away the desserts, and I have about 50 <code>dplyr</code> hex stickers that I clawed my way to secure for the fine denizens of the Davis R users group and data science initiative.</p>
+</blockquote>
+<p><em>Mmm, yes, I feel like there’s so much I want to follow up on, and perhaps learn for myself! What I think we’d all really like to know is: Did anything catch you by surprise?</em></p>
+<p><strong>NL:</strong></p>
+<blockquote>
+<p>I do like to keep a beginner’s mind, a zen mind, about me, so the dimensions of surprise and non-surprise just collapse into one another, and I’m suspended amidst disbelief and constant knowing. Perhaps my favorite shock/ non-shock was the provocative suggestion that there might be a statistically-justified procedure to perform visual inference. Now, don’t get me wrong, I’m not sold on this idea that comparing real data plots to random-generated data plots is valid for hypothesis testing, but it’s something I’d like to dig into (a.k.a. ask the DS421 faculty about). I just know enough statistics to be dangerous.</p>
+</blockquote>
+<p><strong>RP:</strong></p>
+<blockquote>
+<p>People say that the most universal human language is empathy, but I think R might be a close second. I was surprised at the diversity of attendees. We came from all over the world and spanned age groups, backgrounds, and occupations. And also, Hadley Wickam, RStudio’s Chief Scientist and patron saint of the <code>tidyverse</code>, is surprisingly chill in person.</p>
+</blockquote>
+<p><em>Mmmm, yes, so true. So Niklas and Rich, we have a lot of listeners out there, data scientists, students, and such, who might be considering attending rstudio::conf2019. Is that something you would recommend, and why?</em></p>
+<p><strong>NL:</strong></p>
+<blockquote>
+<p>Recommendations are hard. People really have to lay claim to their own existence. My advice would be to listen the quiet patter of your heart. Does your heart whisperyearn to network with academics and professional programmers? Does it lightly tug you to code more frequently? Does it consistently seek answers to StackOverflow? Well, RStudio::conf can surely provide you the inspiration, vigor, and courage to code with abandon, to collaborate without ego, and to mingle with curiousity. I recommend it to all with sufficient funding from DS421.</p>
+</blockquote>
+<p><strong>RP:</strong></p>
+<blockquote>
+<p>I agree with, Nick, recommendations are tough. There are personal and practical barriers to attending. However, if you use R regularly and want to be inspired to use it more and observe the cutting edge, then this conference is right for you. Practically, RStudio::conf2019 will be held in Austin, TX. You have to secure funding to make it across the country. We were lucky enough to have friends and family in San Diego to stay with, and a car to drive the ~8 hours to the conference. So our main cost was the price of a student admission. January 2019 is a ways away, so if you are motivated, you can start tapping your network and find funding.</p>
+</blockquote>
+<p><em>Mmmm, yes, so true. Alright, Niklas and Rich, this is my last question. First, I’d like to preface with a story. Last week, I had the distinct honor and privilege of speaking with the Dalai Lama, and we talked about this idea of getting beyond the self, to consider the community that nourishes the self, and to use the self as a vehicle for change. I’m wondering if you could say a little bit about how this experience, which has benefited you so much, will serve your community back home?</em></p>
+<p><strong>NL:</strong></p>
+<blockquote>
+<p>Excellent question, Krista. You know, as a self-interested, rational, utility-maximizer I hadn’t really thought about anybody else. Since it’s advantageous to appear benevolent, I’ll swipe a few of Rich’s answers I know he’s about to say… First, I made a blog using <code>blogdown</code>, on which I will now write hastily and opine recklessly about R, data science, and the human condition. Some may find value there as I explore new R packages and techniques. Also, it would be nice to teach a DS421 workshop on creating professional websites and blogs using <code>RMarkdown</code>. This conference also had valuable material on how to teach data science, something of value for DS421 investigators. And I will have new skills to help my external partner, HWMO, on this semester’s data science project.</p>
+</blockquote>
+<p><strong>RP:</strong></p>
+<blockquote>
+<p>Krista, I’d be hard-pressed to disagree with His-Holiness the Dalai Lama. And more so, Nick and I have been talking about what we can do to share this experience with others. There’s a tremendous amount of momentum that I feel coming out of this experience. I wrote a blog on <a href="">chi-squared tests and statistical inference using a new package called Infer</a> and I want to write at least two more blog posts on <a href="">working with time-series data with <code>tibbletime</code></a> and <a href="">mapping with <code>sf</code></a>. I also want to give a presentation to the Davis R Users group on <code>tibbletime</code> since I think it has a lot of immediate value to many people’s work. In the long-term, an idea of mine that’s been brewing, is to put together a <em>R for Hydrologic Science</em> aimed at first and second year masters and PhD students in Hydrology. So I hope to wrap some example datasets and basic functions into an R package for this purpose. Beyond that, maybe I’ll go to RStudio::conf2019, if you have any good floors in Austin I can sleep on, let me know.</p>
+</blockquote>
+<div id="photos" class="section level2">
+<h2>Photos</h2>
 </div>
 
   </div>
@@ -333,7 +367,7 @@
                 <i class="fa fa-folder"></i>
                 
                 
-                <li><a class="article-category-link" href="/categories/r">R</a></li>
+                <li><a class="article-category-link" href="https://niklaslollo.netlify.com/categories/data-science">data science</a></li>
                 
             
         
@@ -347,13 +381,16 @@
                 <i class="fa fa-tags"></i>
                 
                 
-                <li><a class="article-category-link" href="/tags/rstudio">RStudio</a></li>
+                <li><a class="article-category-link" href="https://niklaslollo.netlify.com/tags/rstudio">RStudio</a></li>
                 
                 
-                <li><a class="article-category-link" href="/tags/coding">coding</a></li>
+                <li><a class="article-category-link" href="https://niklaslollo.netlify.com/tags/r">R</a></li>
                 
                 
-                <li><a class="article-category-link" href="/tags/tidyverse">tidyverse</a></li>
+                <li><a class="article-category-link" href="https://niklaslollo.netlify.com/tags/conference">conference</a></li>
+                
+                
+                <li><a class="article-category-link" href="https://niklaslollo.netlify.com/tags/data-science">data science</a></li>
                 
             
         
@@ -391,8 +428,8 @@
 
 <ul class="actions pagination">
     
-        <li><a href="/2015/07/23/welcome-reader/"
-                class="button big previous">Welcome, Reader</a></li>
+        <li><a href="/2018/02/03/what-i-learned-at-rstudioconf/"
+                class="button big previous">What I learned at rstudio::conf</a></li>
     
 
     
@@ -410,7 +447,7 @@
 
 
 <li>
-  <a href="//twitter.com/share?url=%2f2018%2f02%2f03%2fwhat-i-learned-at-rstudioconf%2f&amp;text=What%20I%20learned%20at%20rstudio%3a%3aconf&amp;via=NiklasLollo" target="_blank" class="share-btn twitter">
+  <a href="//twitter.com/share?url=https%3a%2f%2fniklaslollo.netlify.com%2f2018%2f02%2f05%2freflections-on-rstudioconf2018%2f&amp;text=Reflections%20on%20RStudio%3a%3aconf2018&amp;via=NiklasLollo" target="_blank" class="share-btn twitter">
     <i class="fa fa-twitter"></i>
     <p>Twitter</p>
     </a>
@@ -418,7 +455,7 @@
 
 
 <li>
-  <a href="//plus.google.com/share?url=%2f2018%2f02%2f03%2fwhat-i-learned-at-rstudioconf%2f" target="_blank" class="share-btn google-plus">
+  <a href="//plus.google.com/share?url=https%3a%2f%2fniklaslollo.netlify.com%2f2018%2f02%2f05%2freflections-on-rstudioconf2018%2f" target="_blank" class="share-btn google-plus">
     <i class="fa fa-google-plus"></i>
     <p>Google+</p>
   </a>
@@ -426,7 +463,7 @@
 
 
 <li>
-  <a href="//www.facebook.com/sharer/sharer.php?u=%2f2018%2f02%2f03%2fwhat-i-learned-at-rstudioconf%2f" target="_blank" class="share-btn facebook">
+  <a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fniklaslollo.netlify.com%2f2018%2f02%2f05%2freflections-on-rstudioconf2018%2f" target="_blank" class="share-btn facebook">
     <i class="fa fa-facebook"></i>
     <p>Facebook</p>
     </a>
@@ -434,7 +471,7 @@
 
 
 <li>
-  <a href="//reddit.com/submit?url=%2f2018%2f02%2f03%2fwhat-i-learned-at-rstudioconf%2f&amp;title=What%20I%20learned%20at%20rstudio%3a%3aconf" target="_blank" class="share-btn reddit">
+  <a href="//reddit.com/submit?url=https%3a%2f%2fniklaslollo.netlify.com%2f2018%2f02%2f05%2freflections-on-rstudioconf2018%2f&amp;title=Reflections%20on%20RStudio%3a%3aconf2018" target="_blank" class="share-btn reddit">
     <i class="fa fa-reddit-alien"></i>
     <p>Reddit</p>
   </a>
@@ -442,7 +479,7 @@
 
 
 <li>
-  <a href="//www.linkedin.com/shareArticle?url=%2f2018%2f02%2f03%2fwhat-i-learned-at-rstudioconf%2f&amp;title=What%20I%20learned%20at%20rstudio%3a%3aconf" target="_blank" class="share-btn linkedin">
+  <a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fniklaslollo.netlify.com%2f2018%2f02%2f05%2freflections-on-rstudioconf2018%2f&amp;title=Reflections%20on%20RStudio%3a%3aconf2018" target="_blank" class="share-btn linkedin">
       <i class="fa fa-linkedin"></i>
       <p>LinkedIn</p>
     </a>
@@ -450,7 +487,7 @@
 
 
 <li>
-  <a href="//www.stumbleupon.com/submit?url=%2f2018%2f02%2f03%2fwhat-i-learned-at-rstudioconf%2f&amp;title=What%20I%20learned%20at%20rstudio%3a%3aconf" target="_blank" class="share-btn stumbleupon">
+  <a href="//www.stumbleupon.com/submit?url=https%3a%2f%2fniklaslollo.netlify.com%2f2018%2f02%2f05%2freflections-on-rstudioconf2018%2f&amp;title=Reflections%20on%20RStudio%3a%3aconf2018" target="_blank" class="share-btn stumbleupon">
     <i class="fa fa-stumbleupon"></i>
     <p>StumbleUpon</p>
   </a>
@@ -458,7 +495,7 @@
 
 
 <li>
-  <a href="//www.pinterest.com/pin/create/button/?url=%2f2018%2f02%2f03%2fwhat-i-learned-at-rstudioconf%2f&amp;description=What%20I%20learned%20at%20rstudio%3a%3aconf" target="_blank" class="share-btn pinterest">
+  <a href="//www.pinterest.com/pin/create/button/?url=https%3a%2f%2fniklaslollo.netlify.com%2f2018%2f02%2f05%2freflections-on-rstudioconf2018%2f&amp;description=Reflections%20on%20RStudio%3a%3aconf2018" target="_blank" class="share-btn pinterest">
     <i class="fa fa-pinterest-p"></i>
     <p>Pinterest</p>
   </a>
@@ -466,7 +503,7 @@
 
 
 <li>
-  <a href="mailto:?subject=Check out this post by Niklas%20Lollo&amp;body=%2f2018%2f02%2f03%2fwhat-i-learned-at-rstudioconf%2f" target="_blank" class="share-btn email">
+  <a href="mailto:?subject=Check out this post by Niklas%20Lollo%20%26%20Rich%20Pauloo&amp;body=https%3a%2f%2fniklaslollo.netlify.com%2f2018%2f02%2f05%2freflections-on-rstudioconf2018%2f" target="_blank" class="share-btn email">
     <i class="fa fa-envelope"></i>
     <p>Email</p>
   </a>
@@ -499,7 +536,7 @@
       <ul class="icons">
         
           <li>
-            <a href="/index.xml" type="application/rss+xml" target="_blank" title="RSS" class="fa fa-rss"></a>
+            <a href="https://niklaslollo.netlify.com/index.xml" type="application/rss+xml" target="_blank" title="RSS" class="fa fa-rss"></a>
           </li>
         
         
@@ -615,6 +652,20 @@
           <article class="mini-post">
             <header>
               <h3>
+                <a href="/2018/02/05/reflections-on-rstudioconf2018/">Reflections on RStudio::conf2018</a>
+              </h3>
+              
+              <time class="published" datetime='2018-02-05'>
+                February 5, 2018
+              </time>
+            </header>
+            
+
+          </article>
+        
+          <article class="mini-post">
+            <header>
+              <h3>
                 <a href="/2018/02/03/what-i-learned-at-rstudioconf/">What I learned at rstudio::conf</a>
               </h3>
               
@@ -646,8 +697,8 @@
                 <a href="/post/">Posts</a>
               </h3>
               
-              <time class="published" datetime='2018-02-03'>
-                February 3, 2018
+              <time class="published" datetime='2018-02-05'>
+                February 5, 2018
               </time>
             </header>
             
@@ -680,8 +731,19 @@
           <article>
             <header>
               
-                <a href="/categories/r/">r</a>
+                <a href="/categories/data-science/">data-science</a>
                 <span style="float:right;">2</span>
+              
+            </header>
+          </article>
+        </p>
+        
+        <p>
+          <article>
+            <header>
+              
+                <a href="/categories/r/">r</a>
+                <span style="float:right;">1</span>
               
             </header>
           </article>
@@ -706,7 +768,7 @@
       <ul class="icons">
         
           <li>
-            <a href="/index.xml" type="application/rss+xml" target="_blank" title="RSS" class="fa fa-rss"></a>
+            <a href="https://niklaslollo.netlify.com/index.xml" type="application/rss+xml" target="_blank" title="RSS" class="fa fa-rss"></a>
           </li>
         
         
